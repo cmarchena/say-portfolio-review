@@ -1,0 +1,151 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    background-color: #fa59ca;
+    color: white;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .nav-links {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 20px;
+  }
+  
+
+  #welcome-section {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #333;
+    color: white;
+    height: 100vh;
+    width: 100%;
+    font-size: large;
+    text-align: left;
+  }
+
+  .about-afghanistan h1 {
+    text-align: center;
+  }
+  
+  .cities {
+    text-align: center;
+    padding: 20px;
+    background-color: #86cfec;
+    display: block;
+  }
+
+  .cities-header {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  
+  .cities-afg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .city-link {
+    margin: 15px; /* distance between photos */
+    width: 300px;
+    height: 340px;
+    background: #1a1a1a;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .city-link:hover {
+    transform: scale(1.30);
+  }
+  .city-image {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+  }
+  
+  .city-title {
+    margin: 10px auto;
+    font-size: 18px;
+    color: aliceblue;
+    text-align: center;
+  }
+  
+
+  .information-section {
+    padding: 20px;
+    background-color: #78e9df;
+    color: black;
+  }
+  
+  .information-header {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .information-links {
+    text-align: center;
+    font-size: large;
+    margin-top: 10px;
+    
+  }
+
+  .information-links a {
+    text-decoration: none;
+    color: white;
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    transition: background-color 0.5s ease-in-out;
+    }
+  
+  .information-links a:hover {
+    background-color: #965151;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #426e83;
+    color: white;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .nav-list {
+      flex-direction: column;
+      align-items: center;
+    }
+    
+
+    .about-afghanistan {
+        background: #426e83;
+        color: black;
+        font-size: 15px;
+    }
+  }
+  
+  
