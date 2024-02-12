@@ -5,7 +5,7 @@ body {
   padding: 0;
 }
 
-#navbar {
+.nav {
   background-color: #fa59ca;
   color: white;
   padding: 10px 20px;
@@ -28,12 +28,12 @@ body {
   margin-left: 20px;
 }
 
-#welcome-section {
+.about-afghanistan {
   text-align: center;
   padding: 80px 20px;
   background-color: #333;
   color: white;
-  height: 100vh;
+  height: 200px;
   width: 100%;
   font-size: large;
   text-align: left;
